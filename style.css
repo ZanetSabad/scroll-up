@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    text-align: justify;
+    /* padding-right: 40px; */
+}
+
+header{
+    background-color: rgb(169, 22, 37);
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    transition: all linear 0.1s;
+}
+
+header h1{
+    line-height: 80px;
+    transition: all linear 0.1s;
+}
+
+p{
+    padding-top: 80px;
+}
+
+.top_page{
+    text-decoration: none;
+    background-color: rgb(48, 9, 85);
+    color: #f2f2f2;
+    font-size: 18px;
+    border-radius: 15px;
+    padding: 5px 10px;
+    position: fixed;
+    right: 20px;
+    bottom: 30px;
+    display: none;
+    transition: all linear 0.5s;
+}
